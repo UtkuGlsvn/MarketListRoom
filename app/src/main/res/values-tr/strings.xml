@@ -5,7 +5,8 @@
     <string name="quantity">Miktar: %1$d</string>
     <string name="list_item_add_title">LİSTEYE ÜRÜN EKLE</string>
     <string name="list_item_update_title">ÜRÜNÜ GÜNCELLE</string>
-    <string name="item_name">ürün ismi</string>
+    <string name="item_name">Ürün ismi</string>
+    <string name="item_quantity">Adet: </string>
     <string name="yes">Evet</string>
     <string name="no">Hayır</string>
     <string name="list_item_remove">ürünü silmek istiyor musunuz?</string>

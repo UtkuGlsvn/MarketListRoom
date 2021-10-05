@@ -5,6 +5,7 @@
     <string name="list_item_add_title">ADD Product ITEM</string>
     <string name="list_item_update_title">ITEM UPDATE</string>
     <string name="item_name">Product name: </string>
+    <string name="item_quantity">Quantity: </string>
     <string name="yes">Yes</string>
     <string name="no">Cancel</string>
     <string name="list_item_remove">Do you want to delete the product?</string>
