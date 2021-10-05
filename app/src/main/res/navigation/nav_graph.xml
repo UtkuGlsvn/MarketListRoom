@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/splashFragment">
+
+    <fragment
+        android:id="@+id/splashFragment"
+        android:name="com.utkuglsvn.roombasic.ui.splashUi.SplashFragment"
+        android:label="fragment_splash"
+        tools:layout="@layout/fragment_splash">
+        <action
+            android:id="@+id/action_splashFragment_to_listFragment"
+            app:destination="@id/listFragment"
+            app:enterAnim="@anim/to_right"
+            app:exitAnim="@anim/to_left"
+            app:popEnterAnim="@anim/from_left"
+            app:popExitAnim="@anim/from_right"
+            app:popUpTo="@id/splashFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/listFragment"
+        android:name="com.utkuglsvn.roombasic.ui.listUi.ListFragment"
+        android:label="fragment_list"
+        tools:layout="@layout/fragment_list" >
+        <action
+            android:id="@+id/action_listFragment_to_openItemDialog"
+            app:destination="@id/openItemDialog" />
+    </fragment>
+
+    <dialog
+        android:id="@+id/openItemDialog"
+        android:name="com.utkuglsvn.roombasic.ui.listUi.OpenItemDialog"
+        android:label="fragment_open_item_dialog"
+        tools:layout="@layout/dialog_open_item" >
+        <argument
+            app:nullable="true"
+            android:name="myListArgs"
+            app:argType="com.utkuglsvn.roombasic.core.local.room.entity.MyListItem" />
+    </dialog>
+</navigation>

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Market List</string>
+    <string name="welcome">Welcome :)</string>
+    <string name="quantity">Quantity: %1$d</string>
+    <string name="list_item_add_title">ADD Product ITEM</string>
+    <string name="list_item_update_title">ITEM UPDATE</string>
+    <string name="item_name">Product name: </string>
+    <string name="yes">Yes</string>
+    <string name="no">Cancel</string>
+    <string name="list_item_remove">Do you want to delete the product?</string>
+    <string name="update_item">Succesfully Update</string>
+    <string name="save_item">Succesfully Saved</string>
+    <string name="input_check">You entered missing!</string>
+</resources>
